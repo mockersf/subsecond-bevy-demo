@@ -308,6 +308,7 @@ version = "0.1.0"
 dependencies = [
  "bevy",
  "dioxus-devtools",
+ "mylib",
 ]
 
 [[package]]
@@ -2896,6 +2897,14 @@ checksum = "3be647b768db090acb35d5ec5db2b0e1f1de11133ca123b9eacf5137868f892a"
 dependencies = [
  "adler2",
  "simd-adler32",
+]
+
+[[package]]
+name = "mylib"
+version = "0.1.0"
+dependencies = [
+ "bevy",
+ "dioxus-devtools",
 ]
 
 [[package]]

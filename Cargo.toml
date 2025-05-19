@@ -3,10 +3,14 @@ name = "bevy-app"
 version = "0.1.0"
 edition = "2024"
 
+[workspace]
+include = ["mylib"]
+
 [dependencies]
 bevy = "0.16.0"
+mylib = { version = "0.1.0", path = "mylib" }
 dioxus-devtools = { version = "0.7.0-alpha.0" }
-# dioxus-devtools = { path = "../../dioxus/packages/devtools" }
+# dioxus-devtools = { path = "../dioxus/packages/devtools" }
 
 # Enable a small amount of optimization in the dev profile.
 [profile.dev]

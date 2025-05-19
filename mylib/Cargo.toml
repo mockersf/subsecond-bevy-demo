@@ -1,0 +1,12 @@
+[package]
+name = "mylib"
+version = "0.1.0"
+edition = "2024"
+
+# [lib]
+# crate-type = ["dylib"]
+
+[dependencies]
+bevy = "0.16"
+dioxus-devtools = { version = "0.7.0-alpha.0" }
+# dioxus-devtools = { path = "../../dioxus/packages/devtools" }
